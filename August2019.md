@@ -20,7 +20,7 @@ sudo dpkg -i libcudnn7-dev_7.6.3.30-1+cuda10.1_amd64.deb
 * See https://askubuntu.com/a/916667
 
 
-###~/.bashrc 
+### ~/.bashrc 
 *이전 PC에서 가져옴.
 ```bash
 export CUDA_HOME=/usr/local/cuda
