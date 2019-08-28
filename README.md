@@ -1,3 +1,3 @@
-# CUDA-cnDNN
+# CUDA-cuDNN
 
 * Setup
