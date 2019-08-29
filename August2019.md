@@ -2,8 +2,22 @@
 ### Environment
 * Ubuntu 18.04.3
 * 2019/8/28
+### NVIDIA driver 
+```bash
+sudo apt-get purge nvidia*
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get update
+sudo apt-get install screen
+screen
+sudo apt-get install nvidia-430
+sudo apt-get install nvidia-driver-430
+sudo reboot
+nvidia-smi
+lsmod |grep nvidia
+```
+* See https://www.mvps.net/docs/install-nvidia-drivers-ubuntu-18-04-lts-bionic-beaver-linux/
 
-### cuda 10.1
+### CUDA 10.1
 ```bash
 https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal
 ```
